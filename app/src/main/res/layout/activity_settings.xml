@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+    <TextView
+        android:text="Select Number by Importance to imform "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showContact"
+        android:text="Click to add contact number 1"
+        android:textSize="20sp"></Button>
+
+    <TextView
+        android:text="Selected Contact Number Display Here "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView1"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:text="Selected Contact Number Display Here "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView2"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:text="Selected Contact Number Display Here "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView3"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showContact"
+        android:text="Next"
+        android:textSize="20sp"></Button>
+
+
+
+
+
+</LinearLayout>
